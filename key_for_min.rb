@@ -2,9 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  true_array
+  true_array = []
   name_hash.each do |key, value|
-    
+    true_array = value.all? do |number|
+      
+    end
     
     
     
