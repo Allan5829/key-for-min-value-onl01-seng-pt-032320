@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   true_array = []
   name_hash.each do |key, value|
     true_array = value.all? do |number|
-      
+      number 
     end
     
     
